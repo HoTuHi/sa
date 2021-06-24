@@ -1,0 +1,291 @@
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.card {
+  width: 519px;
+  height: 305px;
+  border: 0 !important;
+}
+
+.bg-img {
+  background: url("../img/background.png") no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 90%;
+  height: 50%;
+  left: 0px;
+  top: 60px;
+  border-bottom: 15px solid #1A2B6D;
+}
+
+.nothing-here {
+  width: 200px;
+  height: 40vh;
+}
+
+.write-line {
+  border: 2px solid #000000;
+}
+
+/*nav-bar*/
+
+/*section1*/
+
+/*button*/
+button {
+  float: left;
+  width: 117px;
+  height: 40px;
+  background: #000000;
+  border: 0;
+  border-radius: 5px;
+}
+
+.box {
+  padding-right: 150px;
+  width: 500px;
+}
+
+.app-image {
+  display: inline-block;
+}
+
+.app-image img {
+  width: 45%;
+}
+
+.slide {
+  padding-top: 100px;
+}
+
+.w3-button {
+  background-color: white;
+}
+
+/*card*/
+.card-shadow {
+  width: 324px;
+  height: 350px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25);
+}
+
+.card-title {
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 38px;
+}
+
+.card img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.move-up {
+  transform: translate(0, -15px);
+}
+
+.card-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.about {
+  background: url(../img/world.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.member-card {
+  height: auto;
+}
+
+.member-card h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 38px;
+}
+
+.member-card h4 {
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.member-card h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.card-body {
+  padding: 20px 0px !important;
+}
+
+.card-avatar {
+  object-fit: cover;
+  width: 314px !important;
+  height: 208px;
+}
+
+.img-slide {
+  width: 420px;
+  height: 500px;
+  background: no-repeat center center fixed;
+  background-size: cover;
+  border-radius: 19px;
+}
+
+.activity-content {
+  width: 500px;
+  margin: 25px 0px 10px 0px;
+}
+
+.company-text {
+  position: relative;
+  margin-top: 60px;
+}
+
+.front-text {
+  margin-bottom: 10px;
+  position: absolute;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  bottom: 0;
+  color: #000000;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 68px;
+  color: #000000;
+  opacity: 0.1;
+}
+
+.language-sp {
+  margin-top: 20px;
+}
+
+.language-box {
+  width: 54px;
+  height: 54px;
+}
+
+.stack-1 {
+  z-index: 2;
+  position: absolute;
+  width: 637.29px;
+  height: 332.2px;
+  right: 0px;
+  top: 212.27px;
+
+  background: #C4C4C4;
+  border-radius: 288px 0px 0px 288px;
+  transform: rotate(45deg);
+}
+
+.stack-2 {
+  z-index: 1;
+  position: absolute;
+  width: 674.45px;
+  height: 351.57px;
+  right: 0px;
+  top: 311px;
+
+  background: #5A5A5A;
+  border-radius: 288px 0px 0px 288px;
+  transform: rotate(45deg);
+}
+.col-12{
+  padding: 0px;
+}
+.stack-3 {
+  z-index: 0;
+
+  position: absolute;
+  width: 691.41px;
+  height: 360.41px;
+  right: 0px;
+  top: 489.05px;
+
+  background: #000000;
+  border-radius: 288px 0px 0px 288px;
+  transform: rotate(45deg);
+}
+
+.contact-icons {
+  z-index: 2;
+  position: fixed;
+  right: 2%;
+  bottom: 50%;
+}
+
+.contact-icons a {
+  text-decoration: none;
+  display: block;
+  margin: 10px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .primary-bg{
+    padding: 20px;
+  }
+  .hero-text{
+    font-size: 10px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .primary-bg{
+    padding: 20px;
+  }
+  .hero-text{
+    font-size: 10px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .primary-bg{
+    padding: 20px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .reponsive{
+    transform: scale(1.2);
+  }
+
+}
