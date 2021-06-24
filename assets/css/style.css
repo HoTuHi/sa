@@ -1,0 +1,209 @@
+nav {
+    z-index: 999;
+    box-shadow: 4px 1px 6px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand img {
+    display: inline-block;
+}
+
+.navbar-brand h2 {
+    display: inline-block;
+}
+
+h1 {
+    color: #161616;
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #2b2b2b;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36px;
+    margin: 0 0 24px;
+}
+h3 {
+    color: #2b2b2b;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 36px;
+    margin: 0 0 24px;
+}
+
+p {
+    color: #212121;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 0 0 24px;
+}
+
+
+a {
+    color: #101010;
+    text-decoration: underline;
+}
+
+
+a:hover {
+    color: #1c1c1c;
+    text-decoration: underline;
+}
+
+
+/*slide area*/
+.slide-area {
+    height: 100vh;
+}
+
+.main-banner .banner-content {
+    background-image: url(../img/hero/cropped-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.main-banner .banner-content .banner-caption {
+    max-width: 450px;
+    background-color: rgba(250, 250, 250, 0.95);
+    margin: 50px;
+    padding: 50px;
+}
+
+
+.slide-bg {
+    position: relative;
+    top: -10%;
+    background-image: url("../img/hero/cropped-3.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    height: 595px;
+    width: 100vw;
+    z-index: 0;
+}
+
+.card-banner {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}
+
+.product-card {
+    padding: 0px 100px;
+}
+
+.card img {
+    width: 50%;
+}
+
+.card {
+    margin: 10px;
+    padding:40px;
+}
+
+
+.section-title {
+    color: #4E43BD;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 50px;
+}
+
+section {
+    padding-bottom: 50px;
+}
+
+.line-wrap {
+    padding: 25px;
+    border-bottom: 3px solid #eee;
+    margin-bottom: 25px;
+}
+
+.mission-area, .vision-area {
+    background-color: #ccd3db;
+}
+
+.supper-center {
+    display: grid;
+    align-items: center;
+}
+
+.col-image {
+    width: 100%;
+}
+
+.card-banner .card {
+    max-width: 600px;
+}
+
+@media (max-width: 375px) {
+    .card {
+        background-color: white;
+    }
+
+    .navbar-brand h2 {
+        display: none;
+    }
+
+    .card-banner .col-11 {
+        width: 100% !important;
+        padding: 10px;
+    }
+
+    .card-banner {
+        top: 90%;
+        left: 0;
+    }
+}
+
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 376px) and (max-width: 767px) {
+    .card {
+        background-color: white;
+        border: 0;
+    }
+
+    .card-banner .col-11 {
+        width: 100% !important;
+        padding: 10px;
+    }
+
+    .card-banner {
+        top: 90%;
+        left: 0;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .card-banner .col-11 {
+        width: 100% !important;
+        padding: 10px;
+    }
+
+    .card-banner {
+        top: 80%;
+        left: 50%;
+    }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .card-banner .col-11 {
+        width: 100% !important;
+        padding: 10px;
+    }
+
+}
