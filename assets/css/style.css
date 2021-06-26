@@ -33,7 +33,7 @@ h2 {
 
 h3 {
     color: #2b2b2b;
-    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
     font-size: 20px;
     font-weight: 800;
     line-height: 36px;
@@ -42,7 +42,8 @@ h3 {
 
 p {
     color: #212121;
-    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
+    font-size: 18px;
     font-size: 18px;
     font-weight: 500;
     line-height: 32px;
@@ -66,8 +67,18 @@ a:hover {
     color: #1c1c1c;
     text-decoration: underline;
 }
+nav a{
+    font-weight: 600;
 
-
+}
+nav a:hover{
+    color:#4E43BD;
+}
+.line-align{
+    letter-spacing: 0.05em;
+    line-height: 1.7em;
+    font-size: 16px;
+}
 /*slide area*/
 .slide-area {
     height: 100vh;
@@ -133,7 +144,11 @@ a:hover {
 section {
     padding-bottom: 50px;
 }
-
+.line{
+    margin-top: 15px;
+    padding: 10px 0 12px 0;
+    border-top: 4px solid black;
+}
 .line-wrap {
     padding: 25px;
     border-bottom: 3px solid #eee;
@@ -164,12 +179,15 @@ section {
         background-size: cover;
         object-fit: cover;
     }
+    .card-title{
+        font-size: 25px!important;
+    }
     .card-reponsive{
 
         padding: 10px;
     }
     .inner {
-        padding: 0px;
+        padding: 0px!important;
     }
 
     .inner {
@@ -177,6 +195,10 @@ section {
     }
 
     .card {
+        margin: 0px!important;
+        padding: 10px;
+        background-color: white;
+        border: 0;
         background-color: white;
         border-bottom: 3px solid gainsboro;
     }
@@ -207,6 +229,9 @@ section {
         background-size: cover;
         object-fit: cover;
     }
+    .card-title{
+        font-size: 25px;
+    }
     .card-reponsive{
         padding: 10px;
     }
@@ -217,10 +242,12 @@ section {
         font-size: 38px;
     }
     .inner {
-        padding: 10px;
+        padding: 0px!important;
     }
 
     .card {
+        margin: 0px!important;
+        padding: 10px;
         background-color: white;
         border: 0;
         border-bottom: 3px solid gainsboro;
