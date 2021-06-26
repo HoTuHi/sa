@@ -667,3 +667,18 @@ iframe {
     font-family: Arial;
     font-weight: 600;
 }
+.contact-card{
+    padding: 40px;
+}
+.vp-background{
+    /* The image used */
+    background-image: url("../img/hero/untitled.png");
+
+    /* Full height */
+    height: auto;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
