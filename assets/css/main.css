@@ -317,7 +317,7 @@
 
 .footer-left-widget {
     margin-top: 65px!important;
-    padding-left: 80px;
+    /*padding-left: 80px;*/
 }
 
 .footer-widget .section-heading {
@@ -625,4 +625,45 @@ iframe {
     .icon-bar{
         display: none;
     }
+}
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .req h1{
+        font-size: 35px;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .req h1{
+        font-size: 35px;
+    }
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.req h1{
+    font-size: 35px;
+}
+}
+.fa span{
+    font-family: Arial;
+    font-weight: 600;
 }
