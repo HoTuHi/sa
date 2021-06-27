@@ -682,3 +682,8 @@ iframe {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.card-reponsive{
+    background-color: rgba(214, 214, 214, 0.6);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+}
