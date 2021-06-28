@@ -689,7 +689,7 @@ iframe {
 }
 .product-card{
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
-    border-radius: 15px;
+    /*border-radius: 15px;*/
     position: relative;
     z-index: 1;
     background: inherit;
@@ -700,6 +700,7 @@ iframe {
     width: 200px;
     height: 200px;
     border-radius: 20px;
+    /*border: 1px solid #454545;*/
 }
 
 #product span{
