@@ -695,7 +695,6 @@ iframe {
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
     /*border-radius: 15px;*/
     position: relative;
-    z-index: 1;
     background: inherit;
     overflow: hidden;
 }
@@ -727,14 +726,14 @@ iframe {
 /*popup here*/
 /* The Modal (background) */
 .modal {
+    overflow:auto;
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 122; /* Sit on top */
+    z-index: 1000; /* Sit on top */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
@@ -742,7 +741,7 @@ iframe {
 /* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 10% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
     width: 50%; /* Could be more or less, depending on screen size */
@@ -752,7 +751,7 @@ iframe {
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .modal-content {
         background-color: #fefefe;
-        margin: 15% auto; /* 15% from the top and centered */
+        margin: 10% auto; /* 15% from the top and centered */
         padding: 20px;
         border: 1px solid #888;
         width: 95%; /* Could be more or less, depending on screen size */
@@ -763,7 +762,7 @@ iframe {
 @media (min-width: 768px) and (max-width: 991px) {
     .modal-content {
         background-color: #fefefe;
-        margin: 15% auto; /* 15% from the top and centered */
+        margin: 10% auto; /* 15% from the top and centered */
         padding: 20px;
         border: 1px solid #888;
         width: 80%; /* Could be more or less, depending on screen size */
@@ -775,7 +774,7 @@ iframe {
 @media (min-width: 992px) and (max-width: 1200px) {
     .modal-content {
         background-color: #fefefe;
-        margin: 15% auto; /* 15% from the top and centered */
+        margin: 10% auto; /* 15% from the top and centered */
         padding: 20px;
         border: 1px solid #888;
         width: 80%; /* Could be more or less, depending on screen size */
@@ -785,12 +784,15 @@ iframe {
 }
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
-
+    .modal-content {
+        background-color: #fefefe;
+        margin: 10% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 85%; /* Could be more or less, depending on screen size */
+    }
 
 }
-
-
-
 
 
 
@@ -799,21 +801,45 @@ iframe {
 /* small mobile :320px. */
 @media (max-width: 767px) {
 
+    .modal-content {
+        background-color: #fefefe;
+        margin: 10% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 100%; /* Could be more or less, depending on screen size */
+    }
 
 }
 
 
 /* The Close Button */
 .close {
+    text-align: right;
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
-
 .close:hover,
 .close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+/*details app here*/
+.product__details-title{
+    margin-bottom: 0!important;
+    font-size: 24px!important;
+    line-height: 1.25!important;
+    font-weight: 700!important;
+    letter-spacing: .023em!important;
+}
+.product__details-owner{
+    font-size: 20px;
+    font-weight: 600!important;
+    color: #0070c9!important;
+}
+.modal .container{
+    padding: ;
 }
