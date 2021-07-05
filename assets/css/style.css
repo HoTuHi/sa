@@ -275,7 +275,7 @@ section {
 }
 
 .img-reqS {
-    background: url("../img/hero/cropped-3.jpg");
+    background: url("../img/gallery/req.jpg") no-repeat;
     max-height: 450px;
     background-position: right;
     /*width: auto;*/
