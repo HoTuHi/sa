@@ -674,6 +674,7 @@
 }
 
 .vp-background {
+
     /* The image used */
     background-image: url("../img/hero/untitled.png");
 
@@ -722,6 +723,9 @@
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
+    /*.vp-background{*/
+    /*    display: none;*/
+    /*}*/
     .product-card {
         box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .0);
         /*border-radius: 15px;*/
